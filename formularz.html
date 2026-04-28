@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Legendy Motoryzacji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <h1 class="logo">Legendy Motoryzacji</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+       <section class="container form-section">
+            <h2>Formularz kontaktowy</h2>
+            <p>Jeśli chcesz, możesz zostawić tutaj krótką wiadomość. Wpisz swoje dane i ulubione auta.</p>
+
+            <form class="contact-form">
+
+
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" placeholder="Wpisz imię">
+
+                <label for="brand">Ulubiona marka:</label>
+                <input type="text" id="brand" name="brand" placeholder="Np. BMW">
+
+                <label for="model">Ulubiony model:</label>
+                <input type="text" id="model" name="model" placeholder="Np. M3">
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="6" placeholder="Napisz coś od siebie..."></textarea>
+
+                <p>Jakie auta lubisz najbardziej?</p>
+
+                <label><input type="checkbox" name="type"> Sportowe</label>
+                <label><input type="checkbox" name="type"> Klasyczne</label>
+                <label><input type="checkbox" name="type"> Terenowe</label>
+
+                <button type="submit" class="btn">Wyślij</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Legendy Motoryzacji | Projekt szkolny</p>
+        </div>
+    </footer>
+
+</body>
+</html>
